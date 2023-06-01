@@ -58,13 +58,13 @@ function App() {
                   <i className="fa-brands fa-square-instagram"></i>
                 </a>
               </div>
-              <a href="../public/img/cv.docx" download className="btn-descargar sup">
+              <a href="../img/cv.docx" download className="btn-descargar sup">
                 Descargar CV <i className="fa-solid fa-circle-down"></i>
               </a>
             </div>
           </div>
           <div className="col inf">
-            <img src="../public/img/portada.jpeg" alt="" />
+            <img src="../img/portada.jpeg" alt="" />
           </div>
         </div>
       </section>
