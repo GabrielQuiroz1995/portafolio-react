@@ -1,0 +1,448 @@
+
+.container{
+    z-index: 1;
+    max-width: 900px;
+    margin: 40px auto;
+    border: 2px solid #383838;
+    box-shadow: 0px 0px 10px black;
+}
+/* SECCION INICIO */
+.inicio h1{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 35px;
+    background-color: #383838;
+    color: #fff;
+    padding: 7px;
+    transition: .3s;
+}
+.analista{
+    color: #cdb4ff;
+    -webkit-text-stroke: 1px black;
+    transition: .3s;
+}
+.inicio h1:hover{
+    color: #b4ffc9
+}
+.inicio nav{
+    display: flex;
+    justify-content: space-between;
+}
+.inicio .nav-responsive{
+    display: flex;
+    display: none;
+    justify-content: space-between;
+}
+.inicio .nav-responsive .opcion{
+    padding: 15px 0;
+    background: rgb(240,240,240);
+    width: 100%;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    color: #383838;
+    transition: .3s;
+}
+.inicio nav .opcion{
+    position: sticky;
+    top: 0;
+    padding: 15px 0;
+    width: 100%;
+    background: rgb(240,240,240);
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+    
+    
+    transition: .3s;
+}
+.inicio nav .opcion:hover{
+    color: #fff;
+    background-color: #383838;
+}
+/* Clases para dar bordes */
+.inf{
+    border-bottom: 2px solid black;
+}
+.der{
+    border-right: 2px solid black;
+}
+.sup{
+    border-top: 2px solid black;
+}
+/* Fin bordes */
+.inicio .fila{
+    display: flex;
+}
+.inicio .fila .col{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.inicio .fila .col .info{
+    padding: 50px;
+}
+.inicio .fila .col h2{
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+.inicio .fila .col p{
+    font-size: 30px;
+    margin-bottom: 40px;
+    background-color: whitesmoke;
+    padding: 10px;
+
+}
+.inicio .fila .col .redes a{
+    color: #383838;
+    font-size: 40px;
+    display: inline-block;
+    margin-right: 20px;
+}
+.inicio .fila .col .redes a:hover{
+    color:#7550bf;
+}
+.inicio .fila .col .btn-descargar{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background-color: #cdb4ff;
+    display: block;
+    width: 100%;
+    text-decoration: none;
+    color: #383838;
+    text-align: center;
+    padding: 20px;
+    font-size: 25px;
+    transition: .3s;
+}
+.inicio .fila .col .btn-descargar:hover{
+    background-color: #7550bf;
+    color: #fff;
+}
+
+.inicio .fila .col img{
+    width: 100%;
+    display: block;
+}
+.separador{
+    height: 50px;
+}
+/* SECCION HABILIDADES */
+.titulo-seccion{
+    font-family: 'satisfy';
+    padding: 10px 20px;
+    font-weight: bold;
+    font-size: 40px;
+}
+.habilidades .fila{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px,1fr));
+    width: 100%;
+    transition: .3s;
+}
+.habilidades .fila .col{
+    max-width: 100%;
+    padding: 50px 20px;
+    background: #383838;
+    
+}
+.habilidades .fila .col h3{
+    margin-bottom: 7px;
+    font-size: 20px;
+    color: white;
+}
+.habilidades .fila .col p{
+    color: white;
+    font-size: 15px;
+}
+.habilidades .fila .container-skill{
+    width: 90%;
+    margin: 10px auto;
+    border: 2px solid #000;
+    border-radius: 30px;
+    font-size: 12px;
+    color: #fff;
+    text-align: center;
+    overflow: hidden;
+}
+.habilidades .fila .container-skill .fill-skill{
+    width: 0%;
+    background-color: whitesmoke;
+    color: #383838;
+    font-weight: bold;
+    font-size: 15px;
+    transition: 1s;
+}
+.habilidades .fila .col:hover .container-skill #html5{
+    width: 90% !important;
+}
+.habilidades .fila .col:hover .container-skill #css{
+    width: 85% !important;
+}
+.habilidades .fila .col:hover .container-skill #javascript{
+    width: 85% !important;
+}
+.habilidades .fila .col:hover .container-skill #typescript{
+    width: 75% !important;
+}
+.habilidades .fila .col:hover .container-skill #reactjs{
+    width: 80% !important;
+}
+.habilidades .fila .col:hover .container-skill #sql{
+    width: 70% !important;
+}
+.habilidades .fila .col:hover .container-skill #mongoose{
+    width: 70% !important;
+}
+.habilidades .fila .col:hover .container-skill #java{
+    width: 80% !important;
+}
+.habilidades .fila .col:hover .container-skill #springboot{
+    width: 20% !important;
+}
+.habilidades .fila .col:hover .container-skill #aws{
+    width: 10% !important;
+}
+/* Fin habilidades */
+/* SECCION BLOG */
+.blog .fila{
+    display: flex;
+}
+.blog .fila img{
+    width: 100%;
+}
+.blog .fila .col{
+    padding: 20px;
+    position: relative;
+    display: inline-grid;
+}
+.blog .fila .col header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 7px;
+}
+.blog .fila .col header .fecha{
+    background-color: #383838;
+    color: #fff;
+    padding: 2px 7px;
+    font-size: 14px;
+}
+.blog .fila .col p{
+    font-style: italic;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+.purple{
+    background-color: #cdb4ff;
+}
+.green{
+    background-color: #b4ffc9;
+}
+.blog .fila .col .btn-leer{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: #fff;
+    display: block;
+    width: 200px;
+    text-decoration: none;
+    color: #383838;
+    text-align: center;
+    padding: 7px;
+    font-size: 16px;
+    transition: .3s;
+}
+.blog .fila .col .btn-leer:hover{
+    background-color: #7550bf;
+    color: #fff;
+}
+/* SECCION CONSULTA */
+.contacto .fila{
+    background-color: #383838;
+    color: #fff;
+    display: flex;
+    padding: 40px 20px;
+}
+.contacto .fila .col label{
+    display: block;
+    margin-bottom: 7px;
+
+}
+.contacto .fila .col{
+    width: 50%;
+}
+.contacto .fila .col input{
+    width: 80%;
+    background-color: transparent;
+    border: 2px solid #fff;
+    padding: 10px;
+    margin-bottom: 20px;
+    outline: none;
+    color: #fff;
+    font-size: 16px;
+}
+.contacto .fila .col textarea{
+    width: 80%;
+    background-color: transparent;
+    border: 2px solid #fff;
+    outline: none;
+    color: #fff;
+    font-size: 16px;
+    padding: 10px;
+    height: 150px;
+}
+.contacto .fila .col .btn-enviar{
+    background-color: #cdb4ff;
+    display: block;
+    width: 80%;
+    text-decoration: none;
+    color: #383838;
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+    border: none;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: .3s;
+}
+.contacto .fila .col .btn-enviar:hover{
+    background-color: #7550bf;
+    color: #fff;
+}
+.contacto .fila .info{
+    display: flex;
+   align-items: center;
+   text-align: center;
+   justify-content: center;
+}
+.contacto .fila .info h2{
+    font-size: 32px;
+    text-transform: uppercase;
+    font-weight: normal;
+    color: #b4ffc9;
+    font-weight: bold;
+}
+.entrada label{
+    font-size: 20px;
+}
+
+/* seccion responsive */
+@media screen and (max-width: 700px) {
+    body{
+        margin-top: -42px;
+    }
+    .inicio h1 {
+        font-size: 30px;
+    }
+    .inicio nav{
+        display: none;
+    }
+    .inicio .nav-responsive{
+        display: flex;
+    }
+    .inicio .fila{
+        display: block;
+    }
+    .inicio .fila .col{
+        width: 100%;
+        text-align: center;
+        display: block;
+    }
+    .inicio .fila .col .btn-descargar{
+        border-radius: 100px;
+        border: 0px;
+        position: relative;
+    }
+    .inicio .fila .col img{
+        display: none;
+    }
+    .habilidades .fila{
+        display: block;
+    }
+    .inicio .fila .col h2{
+        font-size: 30px;
+    }
+    .inicio .fila .col p{
+        font-size: 20px;
+    }
+    .portafolio .fila {
+        display: block;
+    }
+    .portafolio .fila .col img{
+        width: 80%;
+        margin: auto;
+    }
+    .blog .fila{
+        display: block;
+    }
+    .contacto .fila{
+        display: block;
+    }
+    .contacto .fila .col{
+        width: 100%;
+    }
+    .contacto .fila .col input{
+        width: 100%;
+    }
+    .contacto .fila .col textarea{
+        width: 100%;
+    }
+    .contacto .fila .col .btn-enviar{
+        width: 100%;
+    }
+
+    /* habilidad */
+    .habilidades .fila .col {
+        padding: 30px 10px;
+    }
+    .habilidades .fila .col p{
+        display: none;
+    }
+    .habilidades .fila .col .container-skill #html5{
+        width: 90% !important;
+    }
+    .habilidades .fila .col .container-skill #css{
+        width: 85% !important;
+    }
+    .habilidades .fila .col .container-skill #javascript{
+        width: 85% !important;
+    }
+    .habilidades .fila .col .container-skill #typescript{
+        width: 75% !important;
+    }
+    .habilidades .fila .col .container-skill #reactjs{
+        width: 80% !important;
+    }
+    .habilidades .fila .col .container-skill #sql{
+        width: 70% !important;
+    }
+    .habilidades .fila .col .container-skill #mongoose{
+        width: 70% !important;
+    }
+    .habilidades .fila .col .container-skill #java{
+        width: 80% !important;
+    }
+    .habilidades .fila .col .container-skill #springboot{
+        width: 20% !important;
+    }
+    .habilidades .fila .col .container-skill #aws{
+        width: 10% !important;
+    }
+    /* portafolio  */
+    .blog .fila .col {
+        width: 100%;
+        padding: 30px;
+    }
+    .blog .fila img {
+        display: none;
+    }
+}
