@@ -58,13 +58,13 @@ function App() {
                   <i className="fa-brands fa-square-instagram"></i>
                 </a>
               </div>
-              <a href="../src/assets/img/cv.docx" download className="btn-descargar sup">
+              <a href="../public/img/cv.docx" download className="btn-descargar sup">
                 Descargar CV <i className="fa-solid fa-circle-down"></i>
               </a>
             </div>
           </div>
           <div className="col inf">
-            <img src="/src/assets/img/portada.jpeg" alt="" />
+            <img src="../public/img/portada.jpeg" alt="" />
           </div>
         </div>
       </section>
@@ -90,7 +90,7 @@ function App() {
       <section id="portafolio" className="blog">
         <h2 className="titulo-seccion inf">Portafolio</h2>
         <div className="fila">
-          <div className="col inf der purple">
+          <div className="col inf der green">
             <header>
               <h3>Carro de Compras - JS</h3>
             </header>
@@ -138,16 +138,6 @@ function App() {
             <img src="/src/assets/img/proy3.png" alt="" />
             <a href="https://github.com/GabrielQuiroz1995/red-social-front" className="btn-leer sup der">
               Ir a GitHub <i className="fa-regular fa-circle-right"></i>
-            </a>
-          </div>
-          <div className="col inf der purple">
-            <header>
-              <h3>PasaPalabras</h3>
-            </header>
-            <p>Tecnologias Html5, CSS, JavaScript.</p>
-            <img src="/src/assets/img/proy4.png" alt="" />
-            <a href="#" className="btn-leer sup der">
-              Visitar Web <i className="fa-regular fa-circle-right"></i>
             </a>
           </div>
         </div>

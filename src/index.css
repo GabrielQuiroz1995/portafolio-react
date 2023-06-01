@@ -10,7 +10,7 @@ html{
   scroll-behavior: smooth;
 }
 :root {
-  background: url(src/assets/img/textura2.png);
+  background: url(public/img/textura2.png);
   color: #383838;
 }
 
