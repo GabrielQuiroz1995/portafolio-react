@@ -45,6 +45,10 @@
     color: #383838;
     transition: .3s;
 }
+#img-portada{
+    background-color: #383838;
+    padding: 30px;
+}
 .inicio nav .opcion{
     position: sticky;
     top: 0;
@@ -88,6 +92,8 @@
 }
 .inicio .fila .col .info{
     padding: 50px;
+    text-align: center;
+    margin-bottom: 40px;
 }
 .inicio .fila .col h2{
     font-size: 40px;
@@ -95,7 +101,6 @@
 }
 .inicio .fila .col p{
     font-size: 30px;
-    margin-bottom: 40px;
     background-color: whitesmoke;
     padding: 10px;
 

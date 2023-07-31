@@ -43,10 +43,10 @@ function App() {
           <div className="col inf der">
             <div className="info">
               <h2>
-                Bienvenido,
+                Bienvenido !!!,
                 Soy <span className="analista">Analista Programador.</span>
               </h2>
-              <p>y en este espacio encontraras las tecnologías que he utilizado, y proyectos que actualmente tengo en GitHub.</p>
+              <p>En este espacio encontraras las tecnologías que he utilizado, y proyectos en los cuales e participado.</p>
               <div className="redes">
                 <a href="https://www.linkedin.com/in/gabriel-quiroz-dev">
                   <i className="fa-brands fa-linkedin"></i>
@@ -64,7 +64,7 @@ function App() {
             </div>
           </div>
           <div className="col inf">
-            <img src="../img/portada.jpeg" alt="" />
+            <img id="img-portada" src="../img/portada3.png" alt="" />
           </div>
         </div>
       </section>
